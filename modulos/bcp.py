@@ -62,6 +62,7 @@ def catching_exception():
         
 
 def counter_controlled_repetition():
+<<<<<<< HEAD
     pass
 
 
@@ -69,3 +70,6 @@ def arguments():
     print(f"Arguments count: {len(sys.argv)}")
     for i, arg in enumerate(sys.argv):
         print(f"Argument: {i:>6}: {arg}")
+=======
+    pass
+>>>>>>> adbd75d44236f844eaaa02d32b89c121f818ff5f

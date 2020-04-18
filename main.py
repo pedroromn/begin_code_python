@@ -10,8 +10,12 @@ def main():
     #bcp.asking_questions()
     #bcp.prompting_people()
     #bcp.regurgitator()
+<<<<<<< HEAD
     #bcp.catching_exception()
     bcp.arguments()
+=======
+    bcp.catching_exception()    
+>>>>>>> adbd75d44236f844eaaa02d32b89c121f818ff5f
 
 if __name__ == "__main__":
     main()
