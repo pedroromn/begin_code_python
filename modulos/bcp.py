@@ -1,5 +1,6 @@
 import random
 import time
+import sys
 
 def hola(name):
     print("Hello {name}!!".format(name=name))
@@ -61,4 +62,10 @@ def catching_exception():
         
 
 def counter_controlled_repetition():
-    #pass
+    pass
+
+
+def arguments():
+    print(f"Arguments count: {len(sys.argv)}")
+    for i, arg in enumerate(sys.argv):
+        print(f"Argument: {i:>6}: {arg}")
