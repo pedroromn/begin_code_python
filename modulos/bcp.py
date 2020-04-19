@@ -1,6 +1,8 @@
 import random
 import time
 import sys
+from modulos.crypto import *
+
 
 def hola(name):
     print("Hello {name}!!".format(name=name))
@@ -61,13 +63,14 @@ def catching_exception():
             print(ve.__str__()) 
         
 
-def counter_controlled_repetition():
-<<<<<<< HEAD
-    pass
-
-
 def arguments():
     print(f"Arguments count: {len(sys.argv)}")
     for i, arg in enumerate(sys.argv):
         print(f"Argument: {i:>6}: {arg}")
+
+
+def crypto_test():
+    encrypt()
+    print('-'*50, end="\n")
+    decrypt()
 

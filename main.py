@@ -11,7 +11,8 @@ def main():
     #bcp.prompting_people()
     #bcp.regurgitator()
     #bcp.catching_exception()
-    bcp.arguments()
+    #bcp.arguments()
+    bcp.crypto_test()
 
 
 if __name__ == "__main__":
